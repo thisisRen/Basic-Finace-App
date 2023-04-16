@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/material_on_background_emphasis_high_type"
+    android:layout_margin="3dp"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mua may tinh"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mua sam"
+                android:textSize="16dp"
+                android:layout_marginTop="5dp"/>
+            
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gia: 12.000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="100dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12/12/2022"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
